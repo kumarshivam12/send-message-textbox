@@ -3,10 +3,9 @@ import { toast } from 'react-toastify';
 import { accessCookie } from './utils';
 
 const http = axios.create({
-  baseURL: 'TODO : <Base url>',
+  baseURL: 'http://58e6-2405-201-a40b-98da-70fd-4d6c-6ed9-f6ab.ngrok-free.app/',
   headers: {
-    Accept: 'application/json',
-    'Cache-Control': 'no-cache'
+    'Content-Type': 'multipart/form-data'
   }
 });
 
